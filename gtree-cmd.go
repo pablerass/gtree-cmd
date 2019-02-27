@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-    t := gtree.New("b", "2")
+    t := gtree.NewBinaryTree("b", "2")
     t.Insert("c", "3")
     t.Insert("d", "4")
     t.Insert("a", "1")
